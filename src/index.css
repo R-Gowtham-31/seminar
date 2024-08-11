@@ -1,0 +1,206 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  display: block;
+  justify-content: normal;
+  align-items: normal;
+  min-height: auto;
+  font-family: inherit;
+  background: transparent;
+}
+
+.main {
+  width: auto;
+  height: auto;
+  background: transparent;
+  overflow: visible;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+#chk {
+  display: inline;
+}
+
+.signup {
+  position: static;
+  width: auto;
+  height: auto;
+}
+
+label {
+  color: inherit;
+  font-size: medium;
+  justify-content: normal;
+  display: inline;
+  margin: 0;
+  font-weight: normal;
+  cursor: auto;
+  transition: none;
+}
+
+input {
+  width: auto;
+  height: auto;
+  background: none;
+  justify-content: normal;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  border: initial;
+  outline: initial;
+  border-radius: 0;
+}
+
+button {
+  width: auto;
+  height: auto;
+  margin: 0;
+  justify-content: normal;
+  display: inline-block;
+  color: inherit;
+  background: none;
+  font-size: medium;
+  font-weight: normal;
+  margin-top: 0;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  transition: none;
+  cursor: auto;
+}
+
+button:hover {
+  background: none;
+}
+
+.login {
+  height: auto;
+  background: transparent;
+  border-radius: 0;
+  transform: none;
+  transition: none;
+}
+
+.login label {
+  color: inherit;
+  transform: none;
+}
+
+#chk:checked ~ .login {
+  transform: none;
+}
+
+#chk:checked ~ .login label {
+  transform: none;
+}
+
+#chk:checked ~ .signup label {
+  transform: none;
+}
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+}
+
+form {
+  width:400px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: calc(100% - 20px);
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:disabled,
+input[type="email"]:disabled,
+input[type="number"]:disabled {
+  background-color: #e9ecef;
+  border-color: #d1d1d1;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="button"] {
+  background-color: #6c757d;
+  margin-right: 10px;
+}
+
+button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+button[type="button"]:hover:not(:disabled) {
+  background-color: #5a6268;
+}
+
+.delete-button {
+  background: #bd454f; 
+  color: #080808; 
+  border: 1px solid #f5c6cb; 
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.delete-button:hover {
+  background: #f10820; 
+}
